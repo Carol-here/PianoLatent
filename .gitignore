@@ -1,0 +1,47 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset
+data/maestro/
+data/**/*.npz
+*.wav
+*.mp3
+*.flac
+
+# Model checkpoints and generated outputs
+outputs/
+*.pt
+*.pth
+*.ckpt
+main.py
+main2.py
+package.json
+models/
+
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
